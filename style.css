@@ -1,0 +1,344 @@
+@keyframes insta {
+  0% {
+    border-top: 4px solid red;
+  }
+
+  25% {
+    border-right: 4px solid green;
+  }
+  50% {
+    border-bottom: 4px solid blue;
+  }
+  100% {
+    border-left: 4px solid violet;
+  }
+}
+
+.h1 {
+  animation: insta 3s 0s infinite;
+  width: 80%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-left: 10%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+
+  background: rgb(9, 83, 21);
+  color: white;
+  height: 9vh;
+  font-size: 1em;
+  padding-top: 10px;
+  border: 4px solid rgb(186, 247, 186);
+}
+.timer {
+  font-family: sans-serif;
+  /* margin-top: 5px; */
+  padding-top: 10px;
+  width: 50%;
+  margin-left: 5%;
+  display: inline-block;
+  height: 9vh;
+  background: rgb(39, 35, 35);
+  text-align: center;
+  color: white;
+  border: 2px solid rgb(107, 226, 113);
+  /* border-radius: 10%; */
+  margin-top: 5px;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.total {
+  font-family: sans-serif;
+  padding-top: 10px;
+  margin-top: 5px;
+
+  width: 41%;
+  display: inline-block;
+  height: 9vh;
+  background: rgb(39, 35, 35);
+  text-align: center;
+  color: white;
+  border: 2px solid rgb(154, 226, 154);
+  /* border-radius: 10%; */
+
+  font-size: 1rem;
+}
+* {
+  margin: 0;
+}
+.user-div {
+  width: 100%;
+  font-family: sans-serif;
+  height: 6vh;
+  background: rgb(19, 15, 15);
+  text-align: center;
+  color: white;
+  /* margin-top: 10px; */
+  border: 2px solid rgb(70, 224, 116);
+  /* border-radius: 10%; */
+
+  font-size: 1em;
+}
+.spaces {
+  width: 100%;
+  font-family: sans-serif;
+  height: 9vh;
+  background: rgb(54, 51, 51);
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid rgb(70, 224, 116);
+  /* border-radius: 10%; */
+
+  font-size: 1em;
+  justify-content: center;
+}
+#text {
+  background-color: rgb(227, 241, 232);
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  height: 8vw;
+
+  font-size: 10px;
+  color: rgb(7, 3, 3);
+  font-size: 1em;
+  border: 3px solid white;
+}
+
+#reset {
+  margin-top: 10px;
+  background: #000;
+  color: white;
+  border: 4px splid rgb(248, 243, 243);
+  display: inline-block;
+}
+
+#start {
+  display: inline-block;
+  margin-top: 10px;
+  background: #000;
+  color: white;
+
+  margin-left: 40%;
+}
+#darry {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  display: inline-block;
+  height: 12w;
+  background: rgb(55, 170, 75);
+  font-size: 20px;
+
+  border: 2px solid white;
+  color: rgb(5, 1, 1);
+}
+#plane00 {
+  background: rgb(241, 234, 234);
+  height: 30px;
+  display: inline-block;
+  width: 20%;
+  border: 2px solid black;
+
+  padding-top: 10px;
+}
+#span1 {
+  background: rgb(241, 234, 234);
+  height: 30px;
+  display: inline-block;
+  width: 20%;
+  color: gray;
+
+  padding-top: 10px;
+}
+#span2 {
+  background: rgb(241, 234, 234);
+  height: 30px;
+  display: inline-block;
+  width: 20%;
+  color: gray;
+  padding-top: 10px;
+}
+
+#user {
+  display: inline-block;
+}
+#space {
+  display: inline-block;
+}
+
+#result {
+  display: inline-block;
+}
+#hour {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  height: 8vh;
+  background: rgb(3, 7, 7);
+  font-size: 1rem;
+  color: rgb(243, 240, 240);
+}
+
+#min {
+  text-align: center;
+  height: 8vh;
+  background: rgb(1, 8, 8);
+  font-size: 1rem;
+  color: rgb(245, 235, 235);
+}
+#sec {
+  text-align: center;
+  height: 8vh;
+  background: rgb(4, 7, 7);
+  font-size: 1rem;
+  color: rgb(248, 241, 241);
+}
+#milisec {
+  text-align: center;
+  height: 8vh;
+  background: rgb(11, 17, 17);
+  font-size: 1rem;
+  color: rgb(247, 236, 236);
+}
+
+.insta {
+  height: 30vh;
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 30%;
+  background-image: url(insta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(248, 242, 242);
+  animation: insta 3s 0s infinite;
+}
+.whatsapp {
+  height: 30vh;
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 30%;
+  background-image: url(whats\ app.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(228, 170, 170);
+  animation: insta 3s 0s infinite;
+}
+.telegram {
+  animation: insta 3s 0s infinite;
+  height: 30vh;
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 30%;
+  background-image: url(tel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(197, 103, 103);
+}
+body {
+  background-image: url(bg2.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+}
+.choose{
+
+    width: 80%;
+    height: 50px;
+    background: red;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;margin-left: 10%;
+    border: 2px solid;
+    border-radius: 5%;
+   
+    animation:insta 3s  0s infinite 
+}
+.veryeasy{
+
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: white;
+    background: gray;
+    height: 80px;
+    border: 2px solid black ;
+    text-align: center;
+
+    animation:insta 3s  0s infinite
+}
+.easy{width: 40%;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: white;
+    background: rgb(88, 88, 88);
+    height: 80px;
+    border: 2px solid black ;
+    text-align: center;
+    animation:insta 3s  1s infinite
+}
+
+.difficult{
+
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: white;
+    background: rgb(61, 61, 61);
+    height: 80px;
+    border: 2px solid black ;
+    text-align: center;animation:insta 3s  2s infinite
+}
+.verydifficult{
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: white;
+    background: rgb(26, 25, 25);
+    height: 80px;
+    border: 2px solid black ;
+    text-align: center;animation:insta 3s  3s infinite
+}
+.myproducts{
+
+  width: 100%;
+  text-align: center;
+  background: white;
+  margin-top: 10px;
+  box-shadow:3px 3px 3px 3px rgb(197, 175, 175);
+
+}
+.tic{
+  background-image: url(tic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px ;
+  width: 40%;
+  display: inline-block;
+  
+  margin-top: 20px;
+  margin-left: 5%;
+box-shadow: 3px 3px 3px burlywood;
+}
+
+.gusse{
+
+  
+  background-image: url(guess.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px ;
+  width: 40%;
+  display: inline-block;
+  
+  margin-top: 20px;
+  margin-left: 5%;
+box-shadow: 3px 3px 3px burlywood;
+}
